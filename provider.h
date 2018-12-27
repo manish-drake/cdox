@@ -2,7 +2,7 @@
 #define PROVIDER_H
 #include <string>
 #include <vector>
-#include "funcsig.h"
+#include "fxsig.h"
 using std::string;
 
 class Provider

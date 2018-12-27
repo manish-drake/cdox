@@ -13,7 +13,7 @@ class Provider
     ~Provider();
     inline std::vector<string> GetFunctions(const string &text)
     {
-        FuncSig fx(text);
+        FxSig fx(text);
         return fx.GetFuncs();
     }
 };

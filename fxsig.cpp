@@ -1,8 +1,8 @@
-#include "funcsig.h"
+#include "fxsig.h"
 #include <regex>
 #include <iostream>
 
-FuncSig::FuncSig(const string &text)
+FxSig::FxSig(const string &text)
 {
     const char *pattern = "";
     std::regex patt(pattern);
@@ -14,6 +14,6 @@ FuncSig::FuncSig(const string &text)
     }
 }
 
-FuncSig::~FuncSig()
+FxSig::~FxSig()
 {
 }

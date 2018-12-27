@@ -1,19 +1,19 @@
-#ifndef FUNCSIG_H
-#define FUNCSIG_H
+#ifndef FXSIG_H
+#define FXSIG_H
 #include <string>
 #include <vector>
 using std::string;
-class FuncSig
+class FxSig
 {
   private:
   std::vector<string> m_funcs;
   public:
-    FuncSig() = default;
-    FuncSig(const string &text);
-    ~FuncSig();
+    FxSig() = default;
+    FxSig(const string &text);
+    ~FxSig();
     inline std::vector<string> GetFuncs()
     {
         return m_funcs;
     }
 };
-#endif //FUNCSIG_H
+#endif //FXSIG_H
